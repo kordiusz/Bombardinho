@@ -5,6 +5,39 @@ A modern, web-based multiplayer Bomberman game built with Node.js, Socket.IO, an
 ![Players](https://img.shields.io/badge/Players-2--4-blue)
 ![Platform](https://img.shields.io/badge/Platform-Web-orange)
 
+## 📸 Gallery
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b6af0a69-0759-48f1-8b8c-0ff312fcf625" width="48%" alt="Lobby Screen 2" />
+  <img src="https://github.com/user-attachments/assets/f08ed3bd-d950-4df2-81e2-0aaf4f488473" width="48%" alt="Lobby Screen 1" />
+</p>
+
+<p align="center">
+  <em>Multiplayer Lobby – Create or Join Rooms in Real-Time</em>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ba764c8c-402e-4ac4-9cd6-1be9ad9fcb76" width="48%" alt="Gameplay 2" />
+  <img src="https://github.com/user-attachments/assets/13e4c881-d44c-4119-ae93-9c0010504658" width="48%" alt="Gameplay 1" />
+</p>
+
+<p align="center">
+  <em>Classic Bomberman Gameplay – Drop Bombs and Collect Power-ups</em>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5f969be1-ab57-4910-89d9-215aac595396" width="48%" alt="Death Screen" />
+  <img src="https://github.com/user-attachments/assets/85f92cd1-9e11-4c00-a202-fcdf1908fd9b" width="48%" alt="Map Creation" />
+</p>
+
+<p align="center">
+  <em>End Game Screen & Dynamic Map Generation</em>
+</p>
+
 ## 🎮 Features
 
 ### Core Gameplay
