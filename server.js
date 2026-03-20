@@ -6,7 +6,16 @@ import { v4 as uuidv4 } from "uuid";
 
 const app = express();
 const server = http.createServer(app);
-const io = new Server(server);
+const io = new Server(server, {
+    cors: {
+        origin: "*", // Allow connections from your Heroku URL
+        methods: ["GET", "POST"]
+    }
+});
+
+const PORT = process.env.PORT || 3000;
+
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(express.static("public"));
 
@@ -430,8 +439,6 @@ io.on("connection", (socket) => {
 // server.listen(3000, () => {
 //     console.log("Server listening on http://localhost:3000");
 // });
-const PORT = process.env.PORT || 3000;
-app.use(express.static(path.join(__dirname, 'public')));
 server.listen(PORT, '0.0.0.0', () => {
   console.log(`Server listening on http://0.0.0.0:${PORT}`);
 });
